@@ -3,6 +3,10 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'leisure lab',
   description: 'leisure lab',
+  icons: {
+    icon: '/logo.svg',
+    apple: '/logo.svg',
+  }
 }
 
 export default function RootLayout({
